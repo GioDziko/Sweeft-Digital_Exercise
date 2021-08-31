@@ -1,0 +1,32 @@
+.mainConatiner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.mainConatiner h1 {
+  margin: 10px 0px;
+}
+.StartGameBtn {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  width: 90px;
+  margin: 7px 0px;
+}
+.StartGameBtn:hover {
+  opacity: 0.8;
+}
+.disabledbtn {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  width: 90px;
+  margin: 7px 0px;
+  opacity: 0.3;
+}

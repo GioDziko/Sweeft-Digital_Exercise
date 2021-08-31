@@ -1,0 +1,33 @@
+.gameContainer {
+  background-color: #aeb3b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.gameHeading {
+  margin: 10px 0px;
+}
+.finalScoreContainer {
+  padding: 10px;
+  margin-top: 10px;
+  min-width: 300px;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  flex-direction: column;
+}
+.button {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  width: 90px;
+  margin: 7px 0px;
+}

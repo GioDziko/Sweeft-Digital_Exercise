@@ -1,0 +1,39 @@
+.quiestionContainer {
+  background-color: #fff;
+  width: 70%;
+  min-height: 60vh;
+  border: 1px solid black;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Line {
+  margin-top: 3px;
+  color: black;
+  width: 100%;
+}
+.answerContainer {
+  padding: 10px;
+  width: 100%;
+}
+.answer {
+  margin: 3px 0px;
+  padding: 3px;
+  cursor: pointer;
+  max-width: 40%;
+}
+.answer:hover {
+  opacity: 0.4;
+}
+.correct {
+  color: #fff;
+  background-color: green;
+  transition: all 0.3s ease-in;
+}
+.incorrect {
+  color: #fff;
+  background-color: red;
+  transition: all 0.3s ease-in;
+}

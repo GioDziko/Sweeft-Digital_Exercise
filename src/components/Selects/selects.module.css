@@ -1,0 +1,18 @@
+.select {
+  width: 100px;
+}
+.selectsContainer {
+  min-width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.selectContainer {
+  margin: 3px 0px;
+  width: 60%;
+  min-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
